@@ -15,7 +15,7 @@ Our retrieval system concerns tapping the User Feedback on a set of retrieved re
 The project incorporates user click-through information into an existing ranking system to improve results based on the data received from previous instances when the pages on similar query is served to a User. This is done by maintaining a score of each page in the collection by means of Elo rating, a classical rating system for rating players in Chess, Tennis etc. The score of the page is increased when a link (out of many served) gets clicked, while that of others is reduced. Also, the change in score is in proportion to the position in which the page appears by the present state of the ranking system.  
 
 ### <i class="fa fa-github"></i>&nbsp;Github
-<a href="https://github.com/g31pranjal/wikie" target="_blank">https://github.com/g31pranjal/wikie</a>
+<a href="https://github.com/dvm-bitspilani/oasis-2014" target="_blank">https://github.com/dvm-bitspilani/oasis-2014</a>
 
 ### # block diagram for the whole system :
 <img style="width: 100%;padding: 1% 4% 4% 4%" src="/assets/img/proj-ir-1.png" />

@@ -1,0 +1,8 @@
+
+title : personal webs - Pranjal Gupta
+description : space to know all about my works and ideas...
+timezone : Asia/Kolkata
+
+exclude : ["Gemfile", "Gemfile.lock", "README.md"]
+
+

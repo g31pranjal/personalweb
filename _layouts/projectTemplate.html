@@ -11,8 +11,18 @@ keywords : about, know me, profile
 		<div class="container-fluid main-page-container">
 			<div class="row" style="height : 100%">
 				{% include sidebar-nav.html %}
+			
+				<div class="col-md-9 content-area">
 
+					<div class="project">
+						<div class="project-meta">{{ page.dateF }}</div>
+						<div class="project-title">{{ page.title }}</div>
+						
+						<div class="project-content">{{ page.content }}</div>
+					
+					</div>
 
+				</div>
 
 			</div>
 		</div>

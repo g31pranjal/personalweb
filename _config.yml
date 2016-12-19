@@ -1,8 +1,12 @@
 
-title : personal webs - Pranjal Gupta
-description : space to know all about my works and ideas...
+title : personal web - Pranjal Gupta
+description : space to know all about my projects, work and ideas...
+keywords : pranjal gupta, inarena, g31pranjal, pranjal's blog
+
 timezone : Asia/Kolkata
 
 exclude : ["Gemfile", "Gemfile.lock", "README.md"]
 
-
+collections :
+  projects :
+    output : true 

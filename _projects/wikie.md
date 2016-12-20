@@ -1,6 +1,8 @@
 ---
-title : Improving web search results by incorporating User Feedback
+title : "Wikie : retrieval system"
 date : 2016-11-12T16:00:00Z+0530
+startdate : 2016-10-12T16:00:00Z+0530
+desc : A web retrieval system which uses user feedbacks to improve search results
 author : in-arena
 keyword : information retrieval, ir, search, retrieval, wikipedia, crawler, pagerank, elo ratings
 layout : projectTemplate

@@ -1,7 +1,9 @@
 ---
 title : "Apogee 2016 : the complete project"
 date : 2016-03-11T23:00:00+0530
+startdate : 2015-11-11T23:00:00+0530
 author : in-arena
+desc : The main and various micro websites for APOGEE 2016, techfest of BITS Pilani
 keyword : apogee 2016, apogee bits pilani, technical festival, techfest
 layout : projectTemplate
 ---

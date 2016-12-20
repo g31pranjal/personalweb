@@ -1,6 +1,8 @@
 ---
 title : "Oasis 2014, That 90s' Show : Main website"
 date : 2014-10-31T14:00:00Z+0530
+startdate : 2014-8-31T14:00:00Z+0530
+desc : The main website for Oasis 2014, the cultural festival of BITS Pilani
 author : in-arena
 keyword : oasis 2014, oasis bits pilani, skrollr.js, web design
 layout : projectTemplate

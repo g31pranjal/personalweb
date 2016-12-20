@@ -2,6 +2,7 @@
 title : "Modelling of Natural language sentences using SPN Graphs"
 date : 2016-11-25T16:00:00Z+0530
 author : in-arena
+desc : A question answering system based on Natural Language Processing techniques
 keyword : nlp, natural language processing, spn graphs, ai, artificial intelligence
 layout : projectTemplate
 ---

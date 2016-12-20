@@ -73,19 +73,52 @@ a:hover{
 }
 
 .contact-hi {
-	font-size: 120px;
+	font-size: 140px;
 	font-weight: 700;	
-	line-height: 140px;
+	line-height: 160px;
 	color: #b72929;
 }
 
 .contact-meta {
-	font-size: 20px;	
+	font-size: 22px;	
 }
 
 .sm-i {
 	font-size: 30px !important;
 	margin: 20px 20px 0px 0px ;
+}
+
+.project-main-hi {
+	font-size: 80px;
+	font-weight: 700;	
+	line-height: 140px;
+	color: #007b47;
+}
+
+.project-main-meta {
+	font-size: 22px;	
+}
+
+.project-main-year {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	margin-top: 20px;	
+}
+
+.project-main-entry {
+	margin: 10px 0px 20px 0px ;	
+	font-size: 18px;
+}
+
+.project-main-entry-desc {	
+	font-size: 15px;
+}
+
+.project-main-entry-date {	
+	font-size: 11px;
+	color: #888;
+	margin-top: 4px;
 }
 
 .nick {

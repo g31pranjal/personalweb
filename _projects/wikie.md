@@ -1,21 +1,23 @@
 ---
 title : Improving web search results by incorporating User Feedback
-dateF : November 15, 2016
+date : 2016-11-12T16:00:00Z+0530
 author : in-arena
 keyword : information retrieval, ir, search, retrieval, wikipedia, crawler, pagerank, elo ratings
 layout : projectTemplate
 ---
 
+PageRank is an excellent method to calculate the relevance among the documents by exploring the intrinsic structure of the WWW, the hyperlinks between page. However, the classic retrieval system does not take into consideration any info regarding to the popularity of the page and favoritism among the users. This info forms the non-retrieval which cannot be determined inherently and hence, explicit methods has to be employed to it into account.
 
-PageRank plays an important role in deciding the relevance among the documents similar to the search query. While it performs excellent in exploring the intrinsic structure of the WWW, the classic retrieval system does not incorporate any info on the popularity of the page and favoritism among the users. 
-
-Our retrieval system concerns tapping the User Feedback on a set of retrieved results, which can be used as a rich set of information for improving upon the quality of the search results...   
+Our retrieval system concerns tapping of the User Feedback on a set of retrieved results, which can be used as a rich set of information for improving upon the quality of the search results, since it gives information about the user's interest and preferences...   
 
 
-The project incorporates user click-through information into an existing ranking system to improve results based on the data received from previous instances when the pages on similar query is served to a User. This is done by maintaining a score of each page in the collection by means of Elo rating, a classical rating system for rating players in Chess, Tennis etc. The score of the page is increased when a link (out of many served) gets clicked, while that of others is reduced. Also, the change in score is in proportion to the position in which the page appears by the present state of the ranking system.  
+The project incorporates user click-through information into an existing ranking system to improve results based on the data received from previous instances when the pages on similar query is served to a user. This is done by maintaining a score for each page in the collection, by means of Elo rating, a classical rating system for rating players in Chess, Tennis etc. 
 
-### <i class="fa fa-github"></i>&nbsp;Github
-<a href="https://github.com/g31pranjal/wikie" target="_blank">https://github.com/g31pranjal/wikie</a>
+### # Elo Rating
+
+Elo rating is the system of rating used for evaluating teams/individuals in sports. We have used a similar system to evaluate the pages of the search result based on the user behaviour over the pages fetched by a search query. If the user clicks a page, its rating is increased while the rating of others is decreased proportionally based on the position in which the result occurs. This means, if the last result is clicked, which is the least expected, then its ranking will be boosted to the maximum, however, if the top result is clicked, then there will only be a slight increase increase in the rating. Similarly, for the pages that are not clicked, ratings are decreased in the order of position in which the results appear. 
+
+In a way, the user behaviour is fed back in the system to improve the ratings, which ultimately affects the final rank of the page in future searches of similar query. As the number of evaluations of a query increases, the elo rankings (calculated by ratings), reach a constant which signifies the ordering based on the popularity of the page, irrespective of the PageRank.
 
 ### # block diagram for the whole system :
 <img style="width: 100%;padding: 1% 4% 4% 4%" src="/assets/img/proj-ir-1.png" />
@@ -27,6 +29,11 @@ The project incorporates user click-through information into an existing ranking
 - **Elo Rating** : Implements Elo rating for each page. The ratings get updated each time the User clicks on the search results served to him. 
 - **Rank Merging** : Merging the the ranks obtained from 3 sources viz. Similarity with the query, PageRank, Elo based on the calculated weights. Weights are calculated depending upon the confidence of the Elo Ratings, i.e. initially Elo Rating of all pages are the same, hence no significant contribution, but as the Elo Ratings get updated multiple number of times, it is given significant contribution in determining the final rankings. The weightage of other rankings (similarity and PageRank) is likewise adjusted.
 - **GUI** : Implemented in Django 1.10.
+
+
+### <i class="fa fa-github"></i>&nbsp;Github
+<a href="https://github.com/g31pranjal/wikie" target="_blank">https://github.com/g31pranjal/wikie</a>
+
 
 ### # working stats :
 - 106,000 Wikipedia pages crawled, 1.4 M links extracted (~1 M unique)

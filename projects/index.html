@@ -1,0 +1,26 @@
+---
+title : projects
+keywords : projects, work
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+
+	<body>
+		<div class="container-fluid main-page-container">
+			<div class="row" style="height : 100%">
+				{% include sidebar-nav.html %}
+
+				<ul>
+					{% for project in site.projects reversed %}
+						<li><a href="{{ project.url }}">{{ project.title }}</a></li>
+					{% endfor %}
+				</ul>
+
+			</div>
+		</div>
+	</body>
+
+</html>
+

@@ -6,14 +6,14 @@ keyword : apogee 2016, apogee bits pilani, technical festival, techfest
 layout : projectTemplate
 ---
 
-The idea is, by way, inspired by the opening graphics of a popular HBO television series **"Silicon Valley"**. Being, inspired by the idea of a moving city, we were excited in it putting together as a navigable map in orthogonal view. Having played a lot with 'setting up' the city, it features different attractions of the fest as clickable buildings placed on the city. Clicking on them opens a lightbox for further information or induces an action. 
+The idea of the website is, by way, inspired by the opening credits scene of the popular HBO television series **"Silicon Valley"**. Being, inspired by the idea of a moving city, we were excited in putting it together as a navigable map in orthogonal view. We paly played a lot with 'setting up' the entire city on the website which features different attractions of the fest as clickable buildings placed on the city. Clicking on them opens a lightbox for further information or induces an action. 
 
 We have used a pan-and-zoom library for operating functionalities on the map. The entire graphics is done in Vector and completely by us.
 
 <img style="display: block; margin : auto ; width : 90%; margin-top : 2%" src="/assets/img/proj-apogee16-1.png">
 
 ### # Other links
-The project also includes other micro websites and complete registration system of the fest, together bundled in a Django project. The other resources in the project include :
+The project also includes other micro websites and complete registration and management system for the fest, together bundled in a Django project. The other resources in the project include :
 - <a href="http://{{ site.domain }}/server/apogee16/aic" target="_blank">APOGEE Innovation Challenge</a>
 - <a href="http://{{ site.domain }}/server/apogee16/iot" target="_blank">Internet of Things Challenge</a>
 - <a href="http://{{ site.domain }}/server/apogee16/intro" target="_blank">APOGEE Introductory Website</a>

@@ -6,7 +6,7 @@ keyword : nlp, natural language processing, spn graphs, ai, artificial intellige
 layout : projectTemplate
 ---
 
-*This was done the term project for the partial fulfillment of course 'Artificial Intelligence'*
+*This was done as a term project for the partial fulfillment of course 'Artificial Intelligence'*
 
 The project explores the use of new methodology called as **Stochastic Petri Nets(SPNs)** to model the understanding of Natural Language sentences. Using the technique of representation of NL sentences as SPN Graphs, we have been able to parse sentences and add to the knowledge base of a Questioning and Answering system. The parsed sentence is representation by means of data structures in Python and is stored is a list. The element of the list represents a single atomic sentence, which is parsed as **Noun Phrase (NP)** and a **Verb phrase (VP)** and then further classified into subclasses till we reach terminals, that is, the individual words of the sentence. Ultimately, each sentence is converted to a tuple of 2 elements : Noun Phrase (NP) and Verb Phrase (VP). 
 

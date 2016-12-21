@@ -1,1 +1,60 @@
-this is the about page
+---
+title : home
+keywords : 
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+
+	<body>
+		<div class="container-fluid main-page-container">
+			<div class="row" style="height : 100%">
+				{% include sidebar-nav.html %}
+
+				<div class="col-md-9 content-area">
+					<img  class="about-img"  src="/assets/img/about-me.svg">
+					<div class="about-text">
+						A computer science engineer-in-making, web developer, design buff and a web search enthusiast.
+					</div>
+					<img  class="about-img"  src="/assets/img/about-edu.svg">
+					<div class="about-text">
+						Currently, a 4th year undergrad student at <b>Birla Institute of Technology and Science, Pilani</b>. My major is in Mathematics and Computer Science. 
+					</div>
+					<img  class="about-img"  src="/assets/img/about-interest.svg">
+					<div class="about-text">
+						Interested in multiple domains of computer science, includes Information Retrieval, Data Mining, Machine Learning, Operating Systems, Big Data Storage, Distributed computing and Social Network Analysis.
+
+					</div>
+					<img  class="about-img"  src="/assets/img/about-loc.svg">
+					<div class="about-text">
+						Presently at <b>Pilani, Rajasthan</b>. Hails from <b>Allahabad, Uttar Pradesh</b>. I love travelling and have travelled across all major destinations in India. I have also lived briefly in Mumbai, Ahmedabad and Delhi.
+					</div>
+					<img  class="about-img"  src="/assets/img/about-read.svg">
+					<div class="about-text">
+						Love to read and explicate on new topics, mostly related to computer science and web. Apart, I enjoy reading crime fiction, thriller, mystery and suspense. List of favorites include Sidney Sheldon, Dan Brown, Agatha Christie. 
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+
+		<script>
+				
+		$(document).ready(function() {
+			$(".content-area").css({"padding-top": "60px"});			
+			$(".content-area").animate({"padding-top": "90px" , "opacity" : 1}, "slow");			
+				
+		});
+
+		</script>
+
+
+
+	</body>
+
+</html>
+

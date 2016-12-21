@@ -55,7 +55,7 @@ a:hover{
 	text-align: justify;
 	margin-top: 40px;
 	font-size: 18px;
-	line-height: 32px;
+	line-height: 30px;
 }
 
 .project-content>h1, 
@@ -76,7 +76,12 @@ a:hover{
 	font-size: 140px;
 	font-weight: 700;	
 	line-height: 160px;
-	color: #b72929;
+	color: #de4e4e;
+}
+
+.contact-icon {
+	width: 120px;
+	margin-right: 20px;
 }
 
 .contact-meta {
@@ -93,6 +98,11 @@ a:hover{
 	font-weight: 700;	
 	line-height: 140px;
 	color: #007b47;
+}
+
+.project-main-icon {
+	width: 80px;
+	margin-right: 20px; 
 }
 
 .project-main-meta {
@@ -121,11 +131,24 @@ a:hover{
 	margin-top: 4px;
 }
 
+.about-text {
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	padding: 10px 0px 40px;
+}
+
+.about-img {
+	display: block;
+	margin: auto;
+	height: 60px;
+}
+
 .nick {
 	padding: 15px;
 	padding-bottom: 0px;
 	font-weight: 900;
-	font-size: 60px;
+	font-size: 40px;
 }
 
 .intro {

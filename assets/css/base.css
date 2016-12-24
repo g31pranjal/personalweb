@@ -5,6 +5,24 @@ html, body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.content-area {
+	height: 100%;
+	overflow-y: scroll;
+	padding: 0px 120px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	font-family: 'Bitter', serif;
+	opacity: 0;
+}
+
+.main-page-container {
+	height: 100%;
+	position: static;
+}
+
+
+/* ----------------------------------- sidebar navigation ----------------------------------*/
+
 .navig>ul>li>a {
 	color: inherit;
 }
@@ -12,11 +30,6 @@ html, body {
 .navig>ul>li>a:hover,
 a:hover{
 	text-decoration: none;
-}
-
-.main-page-container {
-	height: 100%;
-	position: static;
 }
 
 .navig {
@@ -28,17 +41,52 @@ a:hover{
 	box-shadow: 0px 0px 20px 1px #444;
 	color : white;
 	position: static !important	;
+	text-align: right;
 }
 
-.content-area {
-	height: 100%;
-	overflow-y: scroll;
-	padding: 0px 120px;
-	padding-top: 50px;
-	padding-bottom: 100px;
-	font-family: 'Bitter', serif;
-	opacity: 0;
+.nick {
+	padding: 15px;
+	padding-bottom: 0px;
+	font-weight: 900;
+	font-size: 40px;
+	margin-right: 20px;
 }
+
+.intro {
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 30px;
+}
+
+.main-ul {
+	margin-top: 20px;
+	margin-right: 40px;
+	text-align: right;
+}
+
+.main-ul>li {
+	padding: 5px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+
+.photo-frame {
+	border-radius: 5px;
+	width: 170px;
+	height: 170px;
+	margin-top: 30px;
+	margin-left: calc(100% - 210px);
+	position: static;
+	margin-right: 20px;
+	background: green;
+	background: url('../img/mep.jpg');
+	background-size: 100%;
+	border: 3px solid #fff;
+	box-shadow: 0px 0px 5px black;
+}
+
+/* -------------------------- project template --------------------------------- */
 
 .project-meta {
 	font-size: 20px;
@@ -72,6 +120,9 @@ a:hover{
 	padding-top: 5px;
 }
 
+
+/* -------------------------------------- contact page ---------------------------- */
+
 .contact-hi {
 	font-size: 140px;
 	font-weight: 700;	
@@ -92,6 +143,8 @@ a:hover{
 	font-size: 30px !important;
 	margin: 20px 20px 0px 0px ;
 }
+
+/* ---------------------------------------- project main ------------------------------ */
 
 .project-main-hi {
 	font-size: 80px;
@@ -131,6 +184,8 @@ a:hover{
 	margin-top: 4px;
 }
 
+/* --------------------------------------------- about -------------------------------------- */
+
 .about-text {
 	font-size: 20px;
 	line-height: 30px;
@@ -144,24 +199,4 @@ a:hover{
 	height: 60px;
 }
 
-.nick {
-	padding: 15px;
-	padding-bottom: 0px;
-	font-weight: 900;
-	font-size: 40px;
-}
 
-.intro {
-	padding: 15px;
-	font-size: 20px;
-}
-
-.main-ul {
-	margin-top: 30px;
-}
-
-.main-ul>li {
-	padding: 5px;
-	font-weight: 700;
-	font-size: 20px;
-}

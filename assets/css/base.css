@@ -120,6 +120,12 @@ a:hover{
 	padding-top: 5px;
 }
 
+.project-back-btn {
+	position: absolute;
+	margin-left: 25%;
+	padding: 20px;
+}
+
 
 /* -------------------------------------- contact page ---------------------------- */
 

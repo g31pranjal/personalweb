@@ -1,6 +1,6 @@
 
 html, body {
-	background-color: #fafafa;
+	background: #fafafa; /* For browsers that do not support gradients */    
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -33,12 +33,12 @@ a:hover{
 }
 
 .navig {
-	background-color: rgb(62, 39, 35);
+	background-color: #0e5e7a;
 	height: auto;
 	min-height: 100%;
 	overflow: visible;
 	padding: 0px;
-	box-shadow: 0px 0px 20px 1px #444;
+	/*box-shadow: 0px 0px 20px 1px #444;*/
 	color : white;
 	position: static !important	;
 	text-align: right;
@@ -83,7 +83,7 @@ a:hover{
 	background: url('../img/mep.jpg');
 	background-size: 100%;
 	border: 3px solid #fff;
-	box-shadow: 0px 0px 5px black;
+	/*box-shadow: 0px 0px 5px black;*/
 }
 
 /* -------------------------- project template --------------------------------- */

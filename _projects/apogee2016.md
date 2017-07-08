@@ -26,5 +26,5 @@ The project also includes other micro websites and complete registration and man
 
 ### <a href="http://{{ site.domain }}/server/apogee16" target="_blank"><i class="fa fa-laptop"></i>&nbsp;See live !</a>
 
-### # The team
+### # the crazy and dedicated souls : 
 Prateek Gupta, Satwik Bhattamishra, Rishabh Garg, Nikhil Verma, Smit Patwa, Amey Agarwal, Abhinav Sharma and me :)

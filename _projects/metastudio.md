@@ -1,7 +1,7 @@
 ---
 title : "Analytic for Metastudio"
-date : 2015-07-25T09:30:00Z+0530
-startdate : 2015-05-20T09:30:00Z+0530
+enddate :      2015-07-25T09:30:00Z+0530
+date : 2015-05-20T09:30:00Z+0530
 desc : Setting up Analytics and visualization tools for an indigenous MOOC platform
 author : in-arena
 keyword : nlp, natural language processing, spn graphs, ai, artificial intelligence

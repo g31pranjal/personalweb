@@ -21,16 +21,17 @@ yrs : ["2017", "2016", "2015", "2014"]
 					</div>
 
 					<div style="margin-top : 30px;" class="project-main-index">
+					{% assign prjs = site.projects | sort: "date" | reverse %}
 					{% for y in page.yrs %}
 						<div class="project-main-year">{{ y }}</div>
 						<ul>
-							{% for project in site.projects reversed %}
+							{% for project in prjs %}
 								{% assign year = project.date | date : '%Y' %}
 								{% if year == y %}
 									<li class="project-main-entry">
 										<b><a href="{{ project.url }}">{{ project.title }}</a></b><br>
 										<div class="project-main-entry-desc">{{ project.desc }}</div>
-										<div class="project-main-entry-date">{% if project.startdate %} {{ project.startdate | date : "%B %Y" }} - {% endif %}{{ project.date | date : "%B %Y" }}</div> 
+										<div class="project-main-entry-date">{{ project.date | date : "%B %Y" }} {% if project.enddate %} - {{ project.enddate | date : "%B %Y" }} {% else %} (ongoing){%endif%}</div> 
 									</li>
 								{% endif %}
 							{% endfor %}

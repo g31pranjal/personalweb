@@ -1,7 +1,7 @@
 ---
 title : "Hearts over TCP network"
-date : 2017-04-20T20:00:00Z+0530
-startdate : 2017-03-23T16:00:00Z+0530
+enddate :      2017-04-20T20:00:00Z+0530
+date : 2017-03-23T16:00:00Z+0530
 desc : A synchronous, multi-player, multi-level game of cards that can be played over TCP network.
 author : in-arena
 keyword : computer networks, internet, TCP, cards, game, hearts

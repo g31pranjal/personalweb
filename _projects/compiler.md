@@ -1,7 +1,7 @@
 ---
 title : "Toy compiler for ERPLAG language"
-date : 2017-04-25T16:00:00Z+0530
-startdate : 2017-02-20T16:00:00Z+0530
+enddate :      2017-04-25T16:00:00Z+0530
+date : 2017-02-20T16:00:00Z+0530
 desc : A toy compiler for a dummy C-like language.
 author : in-arena
 keyword : information retrieval, ir, search, retrieval, wikipedia, crawler, pagerank, elo ratings

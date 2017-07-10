@@ -190,6 +190,66 @@ a:hover{
 	margin-top: 4px;
 }
 
+/* ---------------------------------------- work main ------------------------------ */
+
+.work-main-hi {
+	font-size: 80px;
+	font-weight: 700;	
+	line-height: 140px;
+	color: #e17b00;
+}
+
+.work-main-icon {
+	width: 80px;
+	margin-right: 30px; 
+}
+
+.work-main-meta {
+	font-size: 20px;	
+}
+
+.work-main-index {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	display: block;
+}
+
+.work-main-entry {
+	/*border : 1px solid black;*/
+	margin: 10px;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+.work-main-entry-logo {
+	width: 80px;
+	padding: 2px;
+}
+
+.work-main-entry-text-org {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.work-main-entry-text-loc {	
+	font-size: 11px;
+	color: #888;
+	margin-top: 0px;
+}
+
+.work-main-entry-text-desc {	
+	margin-top: 6px;
+}
+
+.work-main-entry-text-dat {	
+	margin-top: 6px;
+	font-weight: 700;
+	color: #555;
+}
+
+
+
+
 /* --------------------------------------------- about -------------------------------------- */
 
 .about-text {

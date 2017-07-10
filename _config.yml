@@ -11,3 +11,5 @@ exclude : ["Gemfile", "Gemfile.lock", "README.md"]
 collections :
   projects :
     output : true 
+  work :
+    output : true

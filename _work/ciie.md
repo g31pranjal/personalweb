@@ -8,5 +8,6 @@ author         : in-arena
 type           : intern
 logo           : work-ciie-logo.png
 layout         : internTemplate
+post_title	   : My closest instinct with startups!
 ---
 

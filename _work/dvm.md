@@ -8,5 +8,6 @@ author         : in-arena
 type           : others
 logo           : work-dvm-logo.png
 layout         : internTemplate
+post_title	   : My life as a designer!
 ---
 

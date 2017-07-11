@@ -1,0 +1,30 @@
+{
+	"array" : 
+		[	
+			{
+				"img" : "/assets/img/about-me.svg", 
+				"txt" : "A computer science engineer-in-making, web developer, design buff and a web search enthusiast."
+			}, {
+				"img" : "/assets/img/about-edu.svg", 
+				"txt" : "Currently, a 5th year undergrad student at <b>Birla Institute of Technology and Science, Pilani</b>. My major is in Mathematics and Computer Science."
+			}, {
+				"img" : "/assets/img/about-interest.svg", 
+				"txt" : "Machine Learning, Neural Networks, Information Retrieval, Data Mining, Analytics, Visualization, OS, Distributed and cluster computing."
+			}, {
+				"img" : "/assets/img/about-loc.svg", 
+				"txt" : "Presently at <b>Pilani, Rajasthan</b>. Hails from <b>Allahabad, Uttar Pradesh</b>. I love travelling and have travelled across all major destinations in India. Also lived briefly in Mumbai, Ahmedabad and Delhi."
+			}, {
+				"img" : "/assets/img/about-award.svg", 
+				"txt" : "Ranked <b>1st</b> in the class of 57 students. Recieved the award for 'Best Student' for my academic achievements. Continuous reciepient of MCN Scholarship for 80% fee waiver in my university for maintaining a high GPA."
+			}, {
+				"img" : "/assets/img/about-design.svg", 
+				"txt" : "Eccentric love for good colors and design, I spent a brief amount of time in designing for web and dwelling in other web technologies. Created many websites, being a part of the student group at BITS Pilani."
+			}, {
+				"img" : "/assets/img/about-tools.svg", 
+				"txt" : "C/C++, Java, Python (scipy, numpy, matplotlib, scikit-learn), HTML5/CSS3, JavaScript Django, NodeJS, PHP, SQL, MongoDB, Git Version Control, OpenCV, SSH."
+			}, {
+				"img" : "/assets/img/about-read.svg", 
+				"txt" : "Love to read and explicate on new topics, mostly related to computer science and web. Apart, enjoy reading crime fiction, thriller, mystery and suspense. <b>Favorites:</b> Sidney Sheldon, Dan Brown, Agatha Christie."
+			}
+		]
+}

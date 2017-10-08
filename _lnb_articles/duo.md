@@ -8,7 +8,7 @@ I met Swikriti in most unexpected way during initial days of my stay in Canada. 
 
 Rest put aside, the thing that did infatuated me was her simplicity. Imagine a person being engrossed in living her life so completely that it hardly leaves her to think of lost opportunities. I dismissed the notion as ignorance... but then I did realised that maybe, this is the simplest way of living! "Find happiness in people, things and actions", it was effortless and transparent for her. Happiness is the ultimate goal in life, and it can be through simplest of thing, you do not need a moonshot for it. It's irrelevant and worthless to linger over a thing if that doesn't pacify you... while, pretty useful being close to things that do affect your life. You see, all you need to do is "keep your sources of happiness close-by"!.. 
 
-She didn't stay long in Winnipeg. Parting was indeed difficult - deep down we know that we are not going to meet anytime soon, but yet glad we met. It's strange how the most unfamiliar of people can have the most profound effect in you.
+She didn't stay long in Winnipeg. Parting was indeed difficult - deep down we knew that we will not be meeting anytime soon, but yet glad we met. It's strange how the most unfamiliar of people can have the most profound effect in you.
 
 --- To Swikriti
 

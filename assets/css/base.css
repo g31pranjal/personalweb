@@ -33,7 +33,7 @@ a:hover{
 }
 
 .navig {
-	background-color: #0e5e7a;
+	background-color: #0179a3;
 	height: auto;
 	min-height: 100%;
 	overflow: visible;
@@ -267,3 +267,49 @@ a:hover{
 }
 
 
+/*----------------------------------- life and beliefs ----------------------------------------*/
+
+.lnb-main-hi {
+	font-size: 70px;
+	font-weight: 700;	
+	line-height: 140px;
+	color: #760c7c;
+}
+
+.lnb-main-icon {
+	width: 70px;
+	margin-right: 30px; 
+}
+
+.lnb-main-meta {
+	font-size : 17px;	
+}
+
+.lnb-main-entry {
+	border: 1px solid #eaeaea;
+	border-radius: 5px;
+	margin : 20px 80px 0px 60px;
+	padding: 20px;
+	box-shadow: 1px 1px 10px #eee;
+	background-color: #fefefe;
+}
+
+.lnb-main-entry-title {
+	font-size: 25px;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+}
+
+.lnb-main-entry-date {	
+	font-size: 10px;
+	color: #888;
+	margin-top: 4px;
+}
+
+.lnb-main-entry-content {	
+	line-height: 22px;
+	padding: 10px;
+	text-align: justify;
+}

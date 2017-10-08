@@ -13,3 +13,5 @@ collections :
     output : true 
   work :
     output : true
+  lnb_articles :
+    output : true

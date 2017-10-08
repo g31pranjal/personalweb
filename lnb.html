@@ -1,0 +1,54 @@
+---
+title : life and beliefs
+keywords : life, beliefs, opinions, views
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+
+	<body>
+		<div class="container-fluid main-page-container">
+			<div class="row" style="height : 100%">
+				{% include sidebar-nav.html %}
+
+				<div class="col-md-9 content-area">
+				
+					<div class="lnb-main-hi"><img class="lnb-main-icon" src="/assets/img/lnb-main-icon.svg" >life and beliefs</div>
+					<div class="lnb-main-meta">
+						A collection of short tales about everything that everyone has experienced. Somewhere however, we all have different interpretations of such happenings, which culminate to our outlook on life. Here is my version...
+					</div>
+
+					<div style="margin-top:30px" class="lnb-main-index">
+			
+					{% for art in site.lnb_articles reversed %}
+						<div class="lnb-main-entry">
+							<div class="lnb-main-entry-date">{{  art.date | date: "%-d %B %Y" }}</div>
+							<div class="lnb-main-entry-title">{{ art.title }}</div>
+							<div class="lnb-main-entry-content">{{ art.content }}</div> 
+						</div>
+					{% endfor %}
+			
+					</div>
+
+				</div>
+
+
+			</div>
+		</div>
+
+		<script>
+				
+		$(document).ready(function() {
+			$(".content-area").css({"padding-top": "0px"});			
+			$(".content-area").animate({"padding-top": "30px" , "opacity" : 1}, "slow");			
+				
+		});
+
+		</script>
+
+
+	</body>
+
+</html>
+

@@ -16,7 +16,7 @@ We propose a **vector-space model for retrieval of relevant repositories** based
 
 Similar vector is formulated for the user query as well, and cosine-similarity with each repository is calculated to reveal the most significant repositories for a query. The vector-space model, as implemented, gives evident results for the posed queries, on the test set : 
 
-<img style="display:block;margin: auto; width : 90%" src="/assets/img/proj-gitanal-1.png">
+<img style="display:block;margin: auto; width : 60%" src="/assets/img/proj-gitanal-1.png">
 <br>
 We use **2-mean hierarchical clustering** on this result to separate non-relevant set of repositories { underlying set of points in the graph } from a more prominent relevant set.
 
@@ -25,7 +25,7 @@ We use **2-mean hierarchical clustering** on this result to separate non-relevan
 The textual relevance of the repository does not satisfy the actual need of someone who is searching on Github. A user looks for the code repo that is well-maintained, updated, have efficient bug redressal, great collaboration and user popularity.  The above listed  aspects can be said to contribute to the **'health'** of the repository in Github. They serve as an indicator to the stability of a repo and probables of using it, apart from being relevant to the user. Hence, the repos high on such features must be ranked higher in the list of relevant repositories fetched by the retrieval system for a user query. 
 
 Hence, the updated workflow for processing user query now becomes : 
-<img style="display:block;margin: auto; width : 90%" src="/assets/img/proj-gitanal-2.png">
+<img style="display:block;margin: auto; width : 70%" src="/assets/img/proj-gitanal-2.png">
 <br>
 
 The factors we have considered for health of the repository are :
@@ -40,11 +40,11 @@ Each aspect is weighted between [0,1] using derived measures and is given a fixe
 
 The example with the final scores gives a much improved ranking of relevant repositories after considering the health :  
 
-<img style="display:block;margin: auto; width : 90%" src="/assets/img/proj-gitanal-3.png">
+<img style="display:block;width :60%;margin: auto;" src="/assets/img/proj-gitanal-3.png">
 <br>
 
 ### <i class="fa fa-github"></i>&nbsp;Github
 <a href="https://github.com/g31pranjal/git-analysis" target="_blank">https://github.com/g31pranjal/git-analysis</a>
 
 ### # The team
-A Anjana, Himanshu Singh Dhoni, Shubhi Rastogi and me.
+[A Anjana](https://www.linkedin.com/in/anjana-asok-69668ba2/), [Himanshu Singh Dhoni](https://www.linkedin.com/in/himanshudhoni/), [Shubhi Rastogi](https://www.linkedin.com/in/shubhi-rastogi-943751141/) and me.

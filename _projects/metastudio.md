@@ -45,7 +45,7 @@ The following is a brief report for our complete projects that outlines the alte
 
 ### # we did it :)
 
-- Akshit Bhatia, Himanshu Singh Dhoni, Shubhi Rastogi and me at HBCSE, TIFR, Mumbai <3
+- [Akshit Bhatia](https://www.linkedin.com/in/akshit-bhatia-773504a9/), [Himanshu Singh Dhoni](https://www.linkedin.com/in/himanshudhoni/), [Shubhi Rastogi](https://www.linkedin.com/in/shubhi-rastogi-943751141/) and me at HBCSE, TIFR, Mumbai <3
 - special mentions <a href="https://github.com/kedar2a" target="_blank">Kedar Aitawdekar
 </a> and <a href="https://github.com/katkamrachana" target="_blank">Rachana Katkam </a>
 

@@ -71,4 +71,4 @@ The game will require proper synchronisation between the turns of players, handl
 <a href="https://github.com/g31pranjal/online-hearts" target="_blank">https://github.com/g31pranjal/online-hearts</a>
 
 ### # made with passion by an awesome team :)
-- Akshit Bhatia, Neel Kasat, Rishabh Jain and, me ! at BITS Pilani.
+- [Akshit Bhatia](https://www.linkedin.com/in/akshit-bhatia-773504a9/), [Neel Kasat](https://www.linkedin.com/in/neel-kasat-47221110b/), [Rishabh Jain](https://www.linkedin.com/in/rishabhjn/) and, me ! at BITS Pilani.

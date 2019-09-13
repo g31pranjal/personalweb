@@ -1,5 +1,6 @@
 ---
 title : "Image captioning using Recurrent Neural Networks"
+enddate : 2018-12-11T23:00:00+0530
 date : 2017-01-11T23:00:00+0530
 author : in-arena
 desc : Designing a framework that can perform space and time optimizations while pattern mining.

@@ -22,7 +22,7 @@ Elo rating is the system of rating used for evaluating teams/individuals in spor
 In a way, the user behaviour is fed back in the system to improve the ratings, which ultimately affects the final rank of the page in future searches of similar query. As the number of evaluations of a query increases, the elo rankings (calculated by ratings), reach a constant which signifies the ordering based on the popularity of the page, irrespective of the PageRank.
 
 ### # block diagram for the whole system :
-<img style="width: 100%;padding: 1% 4% 4% 4%" src="/assets/img/proj-ir-1.png" />
+<img style="width: 70%;margin:auto;display:block;" src="/assets/img/proj-ir-1.png" />
 
 ### # modules of the project include :
 - **crawling and scraping** : implemented in python, uses multi-threading for running simultaneous connections to web. Uses BeautifulSoup for scraping text.
@@ -34,7 +34,8 @@ In a way, the user behaviour is fed back in the system to improve the ratings, w
 
 
 ### <i class="fa fa-github"></i>&nbsp;Github
-<a href="https://github.com/g31pranjal/wikie" target="_blank">https://github.com/g31pranjal/wikie</a>
+<a href="https://github.com/g31pranjal/wikie" target="_blank">https://github.com/g31pranjal/wikie</a> 
+(no longer maintained)
 
 
 ### # working stats :
@@ -47,4 +48,4 @@ In a way, the user behaviour is fed back in the system to improve the ratings, w
 - total number of tokens in all documents : ~73 M
 
 ### # made with passion by an awesome team :)
-- Varun Vasudevan, Akshit Bhatia, Neel Kasat, and, me ! at BITS Pilani.
+- [Varun Vasudevan](https://www.linkedin.com/in/varun-vasudevan-54970bba/), [Akshit Bhatia](https://www.linkedin.com/in/akshit-bhatia-773504a9/), [Neel Kasat](https://www.linkedin.com/in/neel-kasat-47221110b/), and, me ! at BITS Pilani.

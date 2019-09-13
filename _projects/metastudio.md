@@ -38,7 +38,7 @@ The project was the very initial building stone for a much bigger domain that An
 
 The following is a brief report for our complete projects that outlines the alterations and inclusions we did on the existing Metastudio project. 
 
-####<a href="/assets/ps1-report.pdf" target="_blank"> <i class="fa fa-download"></i>&nbsp;Analytics for MetaStudio : the complete report</a>
+#### <a href="/assets/ps1-report.pdf" target="_blank"> <i class="fa fa-download"></i>&nbsp;Analytics for MetaStudio : the complete report</a>
 
 ### <i class="fa fa-github"></i>&nbsp;Github
 <a href="https://github.com/g31pranjal/gstudio" target="_blank">https://github.com/g31pranjal/gstudio</a>
@@ -46,7 +46,7 @@ The following is a brief report for our complete projects that outlines the alte
 ### # we did it :)
 
 - Akshit Bhatia, Himanshu Singh Dhoni, Shubhi Rastogi and me at HBCSE, TIFR, Mumbai <3
-- the list would be incomplete with the mentions of <a href="https://github.com/kedar2a" target="_blank">Kedar Aitawdekar
+- special mentions <a href="https://github.com/kedar2a" target="_blank">Kedar Aitawdekar
 </a> and <a href="https://github.com/katkamrachana" target="_blank">Rachana Katkam </a>
 
 

@@ -2,16 +2,14 @@
 title : home
 keywords : 
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 	{% include head.html %}
-
 	<body>
-		<div class="container-fluid main-page-container">
-			<div class="row" style="height : 100%">
+		<div class="">
+			<div style="height : 100%">
 				{% include sidebar-nav.html %}
-				<div class="col-md-9 content-area">
+				<div class="content-area">
 					{% for point in site.data.about.array %}
 					<div id="about-point-wrapper col-md-12"> 
 						<img  class="about-img col-md-2"  src="{{point.img}}">
@@ -23,17 +21,11 @@ keywords :
 				</div>
 			</div>
 		</div>
-
-
-		<script>	
-		$(document).ready(function() {
-			$(".content-area").css({"padding-top": "60px"});			
-			$(".content-area").animate({"padding-top": "90px" , "opacity" : 1}, "slow");			
-				
-		});
+		<script>
+			$(document).ready(function() {
+				$(".content-area").css({"padding-top": "60px"});			
+				$(".content-area").animate({"padding-top": "100px" , "opacity" : 1}, "slow");				
+			});
 		</script>
-
-
 	</body>
 </html>
-

@@ -2,20 +2,30 @@
 title : about
 keywords : about, know me, profile
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 	{% include head.html %}
-
 	<body>
-		<div class="container-fluid main-page-container">
-			<div class="row" style="height : 100%">
+		<div>
+			<div style="height : 100%">
 				{% include sidebar-nav.html %}
+				<div class="content-area">
+					<div class="home-hi">hi!</div>
+					<div class="home-content">
+						<p>I am a Master's student in the <a href="https://cs.uwaterloo.ca">Cheriton School of Computer Science</a> at the <a href="https://uwaterloo.ca">University of Waterloo.</a> I work with <a href="https://cs.uwaterloo.ca/~ssalihog">Prof. Semih Salihoglu</a> on <a href="http://graphflow.io">Graphflow</a>, a single-node in-memory native graph database system. I look at scaling Graphflow in a single node environment dealing with aspects like different data storage models, data compression schemes and index compressions techniques. The intriguing idea is to scale-up as rigorously as possible and ultimately strike a sweet spot of optimum performance and memory.</p>
+						<br>
+						<p>On a more general note, my interests in Computer Science touches a broad spectrum which includes Machine Learning, Natural-language processing, Compilers and Large-scale systems designing other than Database Systems. </p>
 
-				what i am upto ?
-
+					</div>
+				</div>
 			</div>
 		</div>
+		<script>	
+		$(document).ready(function() {
+			$(".content-area").animate({"padding-top": "100px" , "opacity" : 1}, "slow");			
+				
+		});
+		</script>
 	</body>
 
 </html>

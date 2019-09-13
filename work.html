@@ -6,19 +6,15 @@ keywords : work, internships, positions-of-responsibility
 <!DOCTYPE html>
 <html lang="en">
 	{% include head.html %}
-
 	<body>
-		<div class="container-fluid main-page-container">
+		<div>
 			<div class="row" style="height : 100%">
 				{% include sidebar-nav.html %}
-
-				<div class="col-md-9 content-area">
-				
+				<div class=" content-area">
 					<div class="work-main-hi col-md-12"><img class="work-main-icon" src="/assets/img/bc.svg" >work</div>
 					<div class="work-main-meta col-md-12">
 						Internships are great (yay!) as always being a source of some new, unorthodoxed and practical learning. Each summer out has tought me things of vital values as I worked on a spectrum other than academics, and it has all been worth the experience...
 					</div>
-
 					<div class="work-main-index col-md-12">
 					{% assign wrks = site.work | sort: "date" | reverse %}
 
@@ -93,7 +89,7 @@ keywords : work, internships, positions-of-responsibility
 				
 		$(document).ready(function() {
 			$(".content-area").css({"padding-top": "0px"});			
-			$(".content-area").animate({"padding-top": "30px" , "opacity" : 1}, "slow");			
+			$(".content-area").animate({"padding-top": "100px" , "opacity" : 1}, "slow");			
 				
 		});
 

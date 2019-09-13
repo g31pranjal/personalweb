@@ -1,0 +1,36 @@
+---
+title : life and beliefs
+keywords : life, beliefs, opinions, views
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+	<body>
+		<div class="container-fluid main-page-container">
+			<div class="row" style="height : 100%">
+				{% include sidebar-nav.html %}
+				<div class="col-md-9 content-area">
+					<div class="lnb-main-hi"><img class="lnb-main-icon" src="/assets/img/lnb-main-icon.svg" >interesting over the web</div>
+					<div class="lnb-main-meta">
+						Collection of all the things that I found interesting over the www (dub-dub-dub) or a currently occupying my mind. <b>Cuation:</b> it mostly holds good research papers that I stumbled upon during my research at different places, though it was never the initial intention.
+					</div>
+
+					{% for point in site.data.about.array %}
+					<div id="about-point-wrapper col-md-12"> 
+						<div class="about-text col-md-10">
+							{{point.txt}}
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		<script>
+			$(document).ready(function() {
+				$(".content-area").css({"padding-top": "0px"});			
+				$(".content-area").animate({"padding-top": "100px" , "opacity" : 1}, "slow");				
+			});
+		</script>
+	</body>
+</html>

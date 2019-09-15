@@ -1,5 +1,5 @@
 ---
-title : about
+title : trivia
 keywords : 
 ---
 <!DOCTYPE html>
@@ -10,14 +10,19 @@ keywords :
 			<div style="height: 100%">
 				{% include sidebar-nav.html %}
 				<div class="content-area">
+					{% assign l = site.data.about.array | size %}
+					{% assign n = 1 %}
 					{% for point in site.data.about.array %}
-					<div id="about-point-wrapper col-md-12"> 
-						<img  class="about-img col-md-2"  src="{{point.img}}">
-						<div class="about-text col-md-10">
-							{{point.txt}}
+					<div class="about-point-wrapper"> 
+						<img  class="about-img"  src="{{point.img}}">
+						<div class="about-text">
+							<span style="font-size: 15px"><b>({{n}}/{{l}})</b></span>
+							<br>{{point.txt}}
+							{% assign n = n | plus: 1 %}
 						</div>
 					</div>
 					{% endfor %}
+					more to follow.
 				</div>
 			</div>
 		</div>

@@ -5,8 +5,10 @@ desc           : [ "Interned in the Data Analytics, Engineering Team of India's 
 date           : 2016-05-23T23:00:00+0530
 enddate        : 2016-07-22T23:00:00+0530
 author         : in-arena
-type           : intern
+type           : industry
 logo           : work-zomato-logo.png
 layout         : internTemplate
+post           : Intern
+webpage			   : https://www.zomato.com
 ---
 

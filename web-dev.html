@@ -1,0 +1,41 @@
+---
+title : designer me
+keywords : website, design, web development, javascript, vector art 
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+	<body>
+		<div>
+			<div style="height : 100%">
+				{% include sidebar-nav.html %}
+				<div class=" content-area">
+					<div class="web-dev-main-hi"><img class="work-main-icon" src="/assets/img/web-dev.svg" >designer me</div>
+					<div class="work-main-meta col-md-12">
+						
+					</div>
+
+					<!-- </div> -->
+					
+
+				</div>
+
+			</div>
+		</div>
+
+		<script>
+				
+		$(document).ready(function() {
+			$(".content-area").css({"padding-top": "0px"});			
+			$(".content-area").animate({"padding-top": "100px" , "opacity" : 1}, "slow");			
+				
+		});
+
+		</script>
+
+
+	</body>
+
+</html>
+

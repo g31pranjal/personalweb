@@ -12,13 +12,13 @@ yrs : ["2019", "2018", "2017", "2016", "2015"]
 		<div class="container-fluid main-page-container">
 			<div class="row" style="height : 100%">
 				{% include sidebar-nav.html %}
-
-				<div class="col-md-9 content-area">
-				
+				<div class="content-area">
 					<div class="project-main-hi"><img class="project-main-icon" src="/assets/img/project-main-icon.svg" >projects</div>
 					<div class="project-main-meta">
 						I like being busy with the nerdy stuff and I just love to make things works... below is the list of stuffs that has kept/or keeping me busy...
 					</div>
+					
+
 					<div style="margin-top : 30px;" class="project-main-index">
 					{% assign prjs = site.projects | sort: "date" | reverse %}
 					{% for y in page.yrs %}

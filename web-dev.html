@@ -13,7 +13,7 @@ keywords : website, design, web development, javascript, vector art
 				<div class=" content-area">
 					<div class="web-dev-main-hi"><img class="work-main-icon" src="/assets/img/web-dev.svg" >designer me</div>
 					<div class="work-main-meta col-md-12">
-						
+
 					</div>
 
 					<!-- </div> -->
@@ -23,19 +23,7 @@ keywords : website, design, web development, javascript, vector art
 
 			</div>
 		</div>
-
-		<script>
-				
-		$(document).ready(function() {
-			$(".content-area").css({"padding-top": "0px"});			
-			$(".content-area").animate({"padding-top": "100px" , "opacity" : 1}, "slow");			
-				
-		});
-
-		</script>
-
-
+		{% include content_animation_script.html %}
 	</body>
-
 </html>
 

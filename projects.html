@@ -15,10 +15,8 @@ yrs : ["2019", "2018", "2017", "2016", "2015"]
 				<div class="content-area">
 					<div class="project-main-hi"><img class="project-main-icon" src="/assets/img/project-main-icon.svg" >projects</div>
 					<div class="project-main-meta">
-						I like being busy with the nerdy stuff and I just love to make things works... below is the list of stuffs that has kept/or keeping me busy...
+						Collection of work I have done through my ungraduate education and now in my Masters...
 					</div>
-					
-
 					<div style="margin-top : 30px;" class="project-main-index">
 					{% assign prjs = site.projects | sort: "date" | reverse %}
 					{% for y in page.yrs %}
@@ -40,12 +38,6 @@ yrs : ["2019", "2018", "2017", "2016", "2015"]
 				</div>
 			</div>
 		</div>
-		<script>
-			$(document).ready(function() {
-				$(".content-area").css({"padding-top": "0px"});			
-				$(".content-area").animate({"padding-top": "100px" , "opacity" : 1}, "slow");			
-					
-			});
-		</script>
+		{% include content_animation_script.html %}
 	</body>
 </html>

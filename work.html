@@ -1,7 +1,7 @@
 ---
 title : work
 keywords : work, internships, positions-of-responsibility 
-type : ["research", "industry", "ta", "others"]
+type : {"research" : "Research Assistantships / Internships:", "industry" : "Industrial Internships (during summer terms while at BITS Pilani):", "ta" : "Teaching Assistantships:", "others" : "Other Managerial Positions:"}
 ---
 
 <!DOCTYPE html>
@@ -13,15 +13,16 @@ type : ["research", "industry", "ta", "others"]
 				{% include sidebar-nav.html %}
 				<div class=" content-area">
 					<div class="work-main-hi"><img class="work-main-icon" src="/assets/img/bc.svg" >work</div>
+					<div class="work-main-meta"><br></div>
 					{% assign wrks = site.work | sort: "date" | reverse %}
 					{% for t in page.type %}
 					<div class="work-main-meta">
-						{{t}}
+						{{t.last}}
 					</div>
 					<div class="work-main-index">
 					{% for work in wrks %}
 						{% assign type = work.type %}
-						{% if type == t %}
+						{% if type == t.first %}
 							<div class="work-main-entry">
 								<img src="/assets/img/{{work.logo}}" class="work-main-entry-logo">
 								<div class="work-main-entry-text">
@@ -37,27 +38,9 @@ type : ["research", "industry", "ta", "others"]
 					{% endfor %}
 					</div>
 					{% endfor %}
-
 				</div>
-
-
-
-
 			</div>
 		</div>
-
-		<script>
-				
-		$(document).ready(function() {
-			$(".content-area").css({"padding-top": "0px"});			
-			$(".content-area").animate({"padding-top": "100px" , "opacity" : 1}, "slow");			
-				
-		});
-
-		</script>
-
-
+		{% include content_animation_script.html %}
 	</body>
-
 </html>
-

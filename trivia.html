@@ -26,11 +26,6 @@ keywords :
 				</div>
 			</div>
 		</div>
-		<script>
-			$(document).ready(function() {
-				$(".content-area").css({"padding-top": "60px"});			
-				$(".content-area").animate({"padding-top": "100px" , "opacity" : 1}, "slow");				
-			});
-		</script>
+		{% include content_animation_script.html %}
 	</body>
 </html>

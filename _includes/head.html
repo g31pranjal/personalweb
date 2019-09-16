@@ -1,56 +1,56 @@
 <head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta http-equiv="content-language" content="EN">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-language" content="EN">
 
-		<title>{{ page.title }} | {{ site.title }}</title>
+	<title>{{ page.title }} | {{ site.title }}</title>
 
-		<meta name="description" content = "{{ page.description }}"/>
-		<meta name = "keywords" content = "{% if page.keywords %}{{ page.keywords }},{%endif%} {{ site.keywords }}"/>
+	<meta name="description" content = "{{ page.description }}"/>
+	<meta name = "keywords" content = "{% if page.keywords %}{{ page.keywords }},{%endif%} {{ site.keywords }}"/>
 
-		<meta name="robots" content="index, follow">
-		<meta name="googlebot" content="index, follow">
+	<meta name="robots" content="index, follow">
+	<meta name="googlebot" content="index, follow">
 
-		<meta name="author" content="Pranjal Gupta">
-		<meta name="email" content="g31.pranjal@gmail.com">
-		<meta name="rating" content="general">
-		<meta name="distribution" content="Global">
-		<meta name="revisit-after" content="1 days">
+	<meta name="author" content="Pranjal Gupta">
+	<meta name="email" content="g31.pranjal@gmail.com">
+	<meta name="rating" content="general">
+	<meta name="distribution" content="Global">
+	<meta name="revisit-after" content="1 days">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		
-		<!-- favicon code -->
-		<link rel="apple-touch-icon" sizes="57x57" href="assets/fav/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="assets/fav/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="assets/fav/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="assets/fav/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/assets/fav/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="/assets/fav/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="/assets/fav/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="/assets/fav/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="/assets/fav/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="assets/fav/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="assets/fav/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="assets/fav/favicon-16x16.png">
-		<link rel="manifest" href="/assets/fav/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="/assets/fav/ms-icon-144x144.png">
-		<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<!-- favicon code -->
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/fav/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/fav/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/fav/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/fav/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/fav/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/fav/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/fav/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/fav/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/assets/fav/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/fav/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/fav/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/fav/favicon-16x16.png">
+	<link rel="manifest" href="/assets/fav/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/assets/fav/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 
-		<!-- local css file -->
-		<link rel="stylesheet" href="/assets/css/base.css">
-		<link rel="stylesheet" href="/assets/css/normalize.css">
-		<link rel="stylesheet" href="/assets/css/font-awesome.css">
+	<!-- local css file -->
+	<link rel="stylesheet" href="/assets/css/base.css">
+	<link rel="stylesheet" href="/assets/css/normalize.css">
+	<link rel="stylesheet" href="/assets/css/font-awesome.css">
 
-		<!-- fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Bitter:400, 700" rel="stylesheet">
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bitter:400, 700" rel="stylesheet">
 
-		{% include google-analytics.html %}
-		
-	</head>
+	{% include google-analytics.html %}
+	
+</head>

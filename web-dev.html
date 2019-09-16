@@ -12,15 +12,14 @@ keywords : website, design, web development, javascript, vector art
 				{% include sidebar-nav.html %}
 				<div class=" content-area">
 					<div class="web-dev-main-hi"><img class="work-main-icon" src="/assets/img/web-dev.svg" >designer me</div>
-					<div class="work-main-meta col-md-12">
-
+					<div class="web-dev-main-meta">
 					</div>
-
-					<!-- </div> -->
-					
-
+					{% for entry in site.data.web-dev.entries %}
+					<div class="web-dev-holder">
+						<img class="web-dev-holder-img" src="{{entry.filename}}" />
+					</div>
+					{% endfor %}
 				</div>
-
 			</div>
 		</div>
 		{% include content_animation_script.html %}

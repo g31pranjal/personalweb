@@ -19,14 +19,17 @@ keywords : life, beliefs, opinions, views
 						<div class="switch switch-all">
 							<i class="glyphicon glyphicon-stop"></i>&nbsp;All
 						</div>
-						<div class="switch switch-linux">
-							<i class="glyphicon glyphicon-stop"></i>&nbsp;Linux, Customization, and other stuff
-						</div>
 						<div class="switch switch-systems">
 							<i class="glyphicon glyphicon-stop"></i>&nbsp;Systems and Databases
 						</div>
+						<div class="switch switch-research-papers">
+							<i class="glyphicon glyphicon-stop"></i>&nbsp;Research Papers
+						</div>
 						<div class="switch switch-thoughts">
 							<i class="glyphicon glyphicon-stop"></i>&nbsp;Life and Thoughts
+						</div>
+						<div class="switch switch-others">
+							<i class="glyphicon glyphicon-stop"></i>&nbsp;Miscellaneous Stuff
 						</div>
 					</div>
 					<div class="interestings-main-index">
@@ -43,35 +46,48 @@ keywords : life, beliefs, opinions, views
 		{% include content_animation_script.html %}
 		<script type="text/javascript">
 
-			function offLinux() {$(".interestings-color-code-linux").slideUp();}
-			function onLinux() {$(".interestings-color-code-linux").slideDown();}
-			function offsystems() {$(".interestings-color-code-systems").slideUp();}
-			function onsystems() {$(".interestings-color-code-systems").slideDown();}
-			function offthoughts() {$(".interestings-color-code-thoughts").slideUp();}
-			function onthoughts() {$(".interestings-color-code-thoughts").slideDown();}
+			function offOthers() {$(".interestings-color-code-others").slideUp();}
+			function onOthers() {$(".interestings-color-code-others").slideDown();}
+			function offSystems() {$(".interestings-color-code-systems").slideUp();}
+			function onSystems() {$(".interestings-color-code-systems").slideDown();}
+			function offThoughts() {$(".interestings-color-code-thoughts").slideUp();}
+			function onThoughts() {$(".interestings-color-code-thoughts").slideDown();}
+			function offResearchPapers() {$(".interestings-color-code-research-papers").slideUp();}
+			function onResearchPapers() {$(".interestings-color-code-research-papers").slideDown();}
 
 			$(".switch-all").click(function() {
-				onLinux();
-				onsystems();
-				onthoughts();
+				onOthers();
+				onSystems();
+				onThoughts();
+				onResearchPapers();
 			});
 
-			$(".switch-linux").click(function() {
-				onLinux();
-				offsystems();
-				offthoughts();
+			$(".switch-others").click(function() {
+				onOthers();
+				offSystems();
+				offThoughts();
+				offResearchPapers();
 			});
 
 			$(".switch-systems").click(function() {
-				offLinux();
-				onsystems();
-				offthoughts();
+				offOthers();
+				onSystems();
+				offThoughts();
+				offResearchPapers();
 			});
 
 			$(".switch-thoughts").click(function() {
-				offLinux();
-				offsystems();
-				onthoughts();
+				offOthers();
+				offSystems();
+				onThoughts();
+				offResearchPapers();
+			});
+
+			$(".switch-research-papers").click(function() {
+				offOthers();
+				offSystems();
+				offThoughts();
+				onResearchPapers();
 			});
 
 		</script>>

@@ -6,18 +6,23 @@
       "type": "systems"
     }, 
     {
-      "txt": "An interesing blog to get started with tmux (terminal multiplexer) <a href=\"https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/\">\"A Quick and Easy Guide to tmux\"</a> by Ham Vocke. Also, should be followed by <a href=\"https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/\">\"Making tmux Pretty and Usable - A Guide to Customizing your tmux.conf\"</a>",
+      "txt": "Interesing blog to get started with tmux (terminal multiplexer) <a href=\"https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/\">\"A Quick and Easy Guide to tmux\"</a> by Ham Vocke. Also, should be followed by <a href=\"https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/\">\"Making tmux Pretty and Usable - A Guide to Customizing your tmux.conf\"</a>",
       "date": "19 September 2019",
-      "type": "linux"
+      "type": "others"
     },
     {
       "txt": "About light-weight, order-preserving dictionary string compression in Column stores. Lexicographical order of the strings is preserved by assigning long numbers to each string in the dictionary, in the same order - thereby making comparisions light and delaying actual materialization of strings from the column.<br><a target=\"_blank\" href=\"https://15721.courses.cs.cmu.edu/spring2017/papers/11-compression/p283-binnig.pdf\"><i class=\"fa fa-link\"></i>&nbsp;Link to the paper</a>",
       "date": "2 June 2019",
+      "type": "research-papers"
+    },
+    {
+      "txt": "How-to article to do big data processing using the MapReduce paradigm on the Amazon AWS infreastructure, using S3 and Lambda fumctions.<br><a target=\"_blank\" href=\"https://aws.amazon.com/blogs/compute/ad-hoc-big-data-processing-made-simple-with-serverless-mapreduce/\">Ad Hoc Big Data Processing Made Simple with Serverless MapReduce</a>",
+      "date": "28 March 2019",
       "type": "systems"
     },
     {
-      "txt": "The how-to article to do big data processing using the MapReduce paradigm on the Amazon AWS infreastructure, using S3 and Lambda fumctions.<br><a target=\"_blank\" href=\"https://aws.amazon.com/blogs/compute/ad-hoc-big-data-processing-made-simple-with-serverless-mapreduce/\">Ad Hoc Big Data Processing Made Simple with Serverless MapReduce</a>",
-      "date": "28 March 2019",
+      "txt": "Truth being told, Webhooks are the traditional old observer design pattern...(just over the web)! The what and why of Webhooks:<br><a target=\"_blank\" href=\"https://snipcart.com/blog/what-are-webhooks-explained-example\">What are Webhooks? Easy Explanation & Tutorial</a>",
+      "date": "15 January 2019",
       "type": "systems"
     }
   ]

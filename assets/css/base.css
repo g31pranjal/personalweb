@@ -428,16 +428,20 @@ a:hover{
 #ca5310, orange, 
 */
 
-.interestings-color-code-linux {
-	border-color: #ca1708;
+.interestings-color-code-others {
+	border-color: #a70740;
 }
 
 .interestings-color-code-systems {
-	border-color: #8ebb43
+	border-color: #497302
 }
 
 .interestings-color-code-thoughts {
 	border-color: #1b82c7
+}
+
+.interestings-color-code-research-papers {
+	border-color: #e4641a
 }
 
 .interestings-main-legend {
@@ -448,16 +452,20 @@ a:hover{
 	padding: 5px;
 }
 
-.switch-linux {
-	color: #ca1708;
+.switch-others {
+	color: #a70740;
 }
 
 .switch-systems {
-	color: #8ebb43
+	color: #497302
 }
 
 .switch-thoughts {
 	color: #1b82c7
+}
+
+.switch-research-papers {
+	color: #e4641a
 }
 
 .switch-all {

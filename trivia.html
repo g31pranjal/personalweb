@@ -6,16 +6,16 @@ keywords :
 <html lang="en">
 	{% include head.html %}
 	<body>
-		<div >
+		<div>
 			<div style="height: 100%">
 				{% include sidebar-nav.html %}
 				<div class="content-area">
-					{% assign l = site.data.about.array | size %}
+					{% assign l = site.data.trivia.array | size %}
 					{% assign n = 1 %}
-					{% for point in site.data.about.array %}
-					<div class="about-point-wrapper"> 
-						<img  class="about-img"  src="{{point.img}}">
-						<div class="about-text">
+					{% for point in site.data.trivia.array %}
+					<div class="trivia-point-wrapper"> 
+						<img  class="trivia-img"  src="{{point.img}}">
+						<div class="trivia-text">
 							<span style="font-size: 15px"><b>({{n}}/{{l}})</b></span>
 							<br>{{point.txt}}
 							{% assign n = n | plus: 1 %}

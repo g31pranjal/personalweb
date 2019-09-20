@@ -347,7 +347,7 @@ a:hover{
 
 /* --------------------------------------------- trivia -------------------------------------- */
 
-.about-text {
+.trivia-text {
 	    font-size: 22px;
 	    padding: 0px 0px 50px;
 	    color: rgb(51,51,51);
@@ -357,7 +357,7 @@ a:hover{
 	    float: left;
 	}
 
-	.about-img {
+	.trivia-img {
 	    width: 100%;
 	    height: 80px;
 	    float: left;
@@ -365,7 +365,7 @@ a:hover{
 	}
 
 @media(min-width: 766px) {
-	.about-text {
+	.trivia-text {
 	    font-size: 18px;
 	    padding: 0px 0px 50px;
 	    color: rgb(51,51,51);
@@ -374,7 +374,7 @@ a:hover{
 	    float: left;
 	}
 
-	.about-img {
+	.trivia-img {
 	    width: 120px;
 	    height: auto;
 	    float: left;
@@ -384,52 +384,92 @@ a:hover{
 
 /*----------------------------------- interesting ----------------------------------------*/
 
-.lnb-main-hi {
+.interestings-main-hi {
 	font-size: 80px;
 	font-weight: 700;	
 	line-height: 140px;
 	color: #760c7c;
 }
 
-.lnb-main-icon {
+.interestings-main-icon {
 	width: 80px;
 	margin-right: 30px; 
 }
 
-.lnb-main-meta {
+.interestings-main-meta {
 	font-size : 25px;
 	line-height: 40px;
 }
 
-.lnb-main-entry {
-	border: 1px solid #eaeaea;
-	border-radius: 5px;
-	margin : 20px 80px 0px 60px;
-	padding: 20px;
-	box-shadow: 1px 1px 10px #eee;
-	background-color: #fefefe;
+.interestings-main-index {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
 }
 
-.lnb-main-entry-title {
-	font-size: 25px;
-	padding-bottom: 5px;
-	margin-bottom: 15px;
-	font-weight: bold;
-	border-bottom: 1px solid #eee;
+.interestings-main-entry {
+	border-left: 5px solid #ddd;
+	margin: 20px 0px;
+	padding: 10px;
 }
 
-.lnb-main-entry-date {	
-	font-size: 10px;
+.interestings-main-entry-title {
+	font-size: 18px;
+}
+
+.interestings-main-entry-date {	
+	font-size: 14px;
 	color: #888;
 	margin-top: 4px;
 }
 
-.lnb-main-entry-content {	
-	line-height: 23px;
-	padding: 10px 20px;
-	text-align: justify;
+/*
+#f2ac15, yellow, 
+#ca5310, orange, 
+*/
+
+.interestings-color-code-linux {
+	border-color: #ca1708;
 }
 
+.interestings-color-code-systems {
+	border-color: #8ebb43
+}
+
+.interestings-color-code-thoughts {
+	border-color: #1b82c7
+}
+
+.interestings-main-legend {
+	display: inline-block;
+	border-bottom: 1px solid #aaa;
+	width: 100%;
+	margin: 30px 0px 10px 0px;
+	padding: 5px;
+}
+
+.switch-linux {
+	color: #ca1708;
+}
+
+.switch-systems {
+	color: #8ebb43
+}
+
+.switch-thoughts {
+	color: #1b82c7
+}
+
+.switch-all {
+	color: #777
+}
+
+.switch{
+	cursor: pointer;
+	float: left;
+	height: auto;
+	padding: 10px;
+}
 
 /* ---------------------------------------- web dev ------------------------------------ */
 

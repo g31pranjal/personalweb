@@ -1,0 +1,79 @@
+---
+title : life and beliefs
+keywords : life, beliefs, opinions, views
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+	<body>
+		<div>
+			<div style="height : 100%">
+				{% include sidebar-nav.html %}
+				<div class="content-area">
+					<div class="interestings-main-hi"><img class="interestings-main-icon" src="/assets/img/lnb-main-icon.svg" >interesting(s)</div>
+					<div class="interestings-main-meta">
+						Collection of all the things that I found interesting over the www (dub-dub-dub) or a currently occupying my mind. <b>Cuation:</b> it mostly holds good research papers and web articles that I stumbled upon during my research at different places, though it was never the initial intention.
+					</div>
+					<div class="interestings-main-legend">
+						<div class="switch switch-all">
+							<i class="glyphicon glyphicon-stop"></i>&nbsp;All
+						</div>
+						<div class="switch switch-linux">
+							<i class="glyphicon glyphicon-stop"></i>&nbsp;Linux, Customization, and other stuff
+						</div>
+						<div class="switch switch-systems">
+							<i class="glyphicon glyphicon-stop"></i>&nbsp;Systems and Databases
+						</div>
+						<div class="switch switch-thoughts">
+							<i class="glyphicon glyphicon-stop"></i>&nbsp;Life and Thoughts
+						</div>
+					</div>
+					<div class="interestings-main-index">
+						{% for point in site.data.interestings.array %}
+						<div class="interestings-main-entry interestings-color-code-{{point.type}}"> 
+							<div class="interestings-main-entry-date">{{point.date}}</div>
+							<div class="interestings-main-entry-title">{{point.txt}}</div>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+		{% include content_animation_script.html %}
+		<script type="text/javascript">
+			
+			function offLinux() {$(".interestings-color-code-linux").slideUp();}
+			function onLinux() {$(".interestings-color-code-linux").slideDown();}
+			function offsystems() {$(".interestings-color-code-systems").slideUp();}
+			function onsystems() {$(".interestings-color-code-systems").slideDown();}
+			function offthoughts() {$(".interestings-color-code-thoughts").slideUp();}
+			function onthoughts() {$(".interestings-color-code-thoughts").slideDown();}
+
+			$(".switch-all").click(function() {
+				onthoughts();
+				onsystems();
+				onLinux();
+			});
+
+			$(".switch-linux").click(function() {
+				offthoughts();
+				offsystems();
+				onLinux();
+			});
+
+			$(".switch-systems").click(function() {
+				offthoughts();
+				offLinux();
+				onsystems();
+			});
+
+			$(".switch-thoughts").click(function() {
+				offsystems();
+				offsystems();
+				onthoughts();
+			});
+
+		</script>>
+	</body>
+</html>

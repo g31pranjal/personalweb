@@ -42,7 +42,7 @@ keywords : life, beliefs, opinions, views
 		</div>
 		{% include content_animation_script.html %}
 		<script type="text/javascript">
-			
+
 			function offLinux() {$(".interestings-color-code-linux").slideUp();}
 			function onLinux() {$(".interestings-color-code-linux").slideDown();}
 			function offsystems() {$(".interestings-color-code-systems").slideUp();}
@@ -51,25 +51,25 @@ keywords : life, beliefs, opinions, views
 			function onthoughts() {$(".interestings-color-code-thoughts").slideDown();}
 
 			$(".switch-all").click(function() {
-				onthoughts();
-				onsystems();
 				onLinux();
+				onsystems();
+				onthoughts();
 			});
 
 			$(".switch-linux").click(function() {
-				offthoughts();
-				offsystems();
 				onLinux();
+				offsystems();
+				offthoughts();
 			});
 
 			$(".switch-systems").click(function() {
-				offthoughts();
 				offLinux();
 				onsystems();
+				offthoughts();
 			});
 
 			$(".switch-thoughts").click(function() {
-				offsystems();
+				offLinux();
 				offsystems();
 				onthoughts();
 			});

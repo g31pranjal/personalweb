@@ -12,7 +12,7 @@
       "type": "others"
     },
     {
-      "txt": "A webcomic of romance, sarcasm, math and language.<br><a href=\"https://xkcd.com\">xkcd</a>",
+      "txt": "A webcomic of romance, sarcasm, math and language, called <a href=\"https://xkcd.com\">xkcd</a>",
       "date": "28 July 2019",
       "type": "others"
     },
@@ -30,6 +30,11 @@
       "txt": "Truth being told, Webhooks are the traditional old observer design pattern...(just over the web)! The what and why of Webhooks:<br><a target=\"_blank\" href=\"https://snipcart.com/blog/what-are-webhooks-explained-example\">What are Webhooks? Easy Explanation & Tutorial</a>",
       "date": "15 January 2019",
       "type": "systems"
+    },
+    {
+      "txt": "An effective paper on <a target=\"_blank\" href=\"http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf\">How to Read a Paper</a> by <a target=\"_blank\" href=\"http://blizzard.cs.uwaterloo.ca/keshav/wiki/index.php/Main_Page\">S. Keshav</a>",
+      "date": "12 Decemeber 2018",
+      "type": "research-papers"
     }
   ]
 }

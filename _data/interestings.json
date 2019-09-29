@@ -1,5 +1,6 @@
 {
   "array": [
+    
     {
       "txt": "An easy to grasp blog to start knowing and working with Serverless architectures. Also includes a tutorial for setting up a service on Amazon AWS using Serverless framework.<br><a href=\"https://snipcart.com/blog/why-serverless-example/\">\"A Serverless Function Example: Why & How to Get Started\"</a>",
       "date": "20 September 2019",
@@ -8,6 +9,11 @@
     {
       "txt": "Interesing blog to get started with tmux (terminal multiplexer) <a href=\"https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/\">\"A Quick and Easy Guide to tmux\"</a> by Ham Vocke. Also, should be followed by <a href=\"https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/\">\"Making tmux Pretty and Usable - A Guide to Customizing your tmux.conf\"</a>",
       "date": "19 September 2019",
+      "type": "others"
+    },
+    {
+      "txt": "A webcomic of romance, sarcasm, math and language.<br><a href=\"https://xkcd.com\">xkcd</a>",
+      "date": "28 July 2019",
       "type": "others"
     },
     {

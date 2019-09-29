@@ -1,6 +1,7 @@
 ---
 title : "Framework for optimizing of Vertical frequent-pattern Data Mining on large datasets"
 date : 2017-05-11T23:00:00+0530
+enddate : 2017-07-25T16:00:00Z+0530
 author : in-arena
 desc : Designing a framework that can perform space and time optimizations while pattern mining.
 keyword : eclat, declat, viper, data mining, frequent-pattern mining, vertical mining 

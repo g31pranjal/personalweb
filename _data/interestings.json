@@ -1,6 +1,10 @@
 {
   "array": [
-    
+    {
+      "txt": "BERT word embeddings. What is it? How it works? What they have to offer? and mostly how effective it is over what we previously used...<br><a href=\"https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial//\">\"BERT Word Embeddings\"</a>",
+      "date": "2 October 2019",
+      "type": "others"
+    },
     {
       "txt": "An easy to grasp blog to start knowing and working with Serverless architectures. Also includes a tutorial for setting up a service on Amazon AWS using Serverless framework.<br><a href=\"https://snipcart.com/blog/why-serverless-example/\">\"A Serverless Function Example: Why & How to Get Started\"</a>",
       "date": "20 September 2019",
@@ -34,6 +38,31 @@
     {
       "txt": "An effective paper on <a target=\"_blank\" href=\"http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf\">How to Read a Paper</a> by <a target=\"_blank\" href=\"http://blizzard.cs.uwaterloo.ca/keshav/wiki/index.php/Main_Page\">S. Keshav</a>",
       "date": "12 Decemeber 2018",
+      "type": "research-papers"
+    },
+    {
+      "txt": "<b>Graduated</b> from BITS Pilani!. 5 years. <br> Irony is, I am still working on my bachelor's thesis :p",
+      "date": "25 July 2018",
+      "type": "thoughts"
+    },
+    {
+      "txt": "<b>Life Update:</b> Accepted at University of Waterloo for the Masters in Computer Science (Thesis) program. I will be working in the Data Systems Group with Prof. Semih Salihoglu on Graph Database Management systems. Excited!! Also, shifting to systems (yeah, the core engineering!) after exploring  Infomation retrieval, NLP and Comuter vision for around 2 years.",
+      "date": "9 March 2018",
+      "type": "thoughts"
+    },
+    {
+      "txt": "The original paper of what everyone is talking about: Attention-mechanism for machine translations in text.<br> <a target=\"_blank\" href=\"https://arxiv.org/abs/1409.0473\"><i class=\"fa fa-link\"></i>&nbsp;Link to the paper</a> <br>",
+      "date": "9 March 2018",
+      "type": "research-papers"
+    },
+    {
+      "txt": "IBM's abstractive summarization model based on encoder-decoder, and having multi-dimensional rich encoder, attention-mechanism, hierarchical attention for detecting document structure and switch to model OOV words.<br> <a target=\"_blank\" href=\"https://arxiv.org/abs/1602.06023\"><i class=\"fa fa-link\"></i>&nbsp;Link to the paper</a> <br>",
+      "date": "5 March 2018",
+      "type": "research-papers"
+    },
+    {
+      "txt": "Deep learning model for the task of abstractive summarization using bidirectional LSTM encoder, simple decoder, attention-mechanism for localized focus on inputs, coverage mechanism to avoid input repetation and pointer-generators to deal with OOV words.<br> <a target=\"_blank\" href=\"https://arxiv.org/abs/1704.04368\"><i class=\"fa fa-link\"></i>&nbsp;Link to the paper</a> <br> <a target=\"_blank\" href=\"https://github.com/abisee/pointer-generator\"><i class=\"fa fa-github\"></i>&nbsp;Code on Github</a>",
+      "date": "20 February 2018",
       "type": "research-papers"
     }
   ]

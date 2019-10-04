@@ -6,6 +6,11 @@
       "type": "others"
     },
     {
+      "txt": "Describing the space and meanings of Transfer learning: <a href=\"http://ruder.io/transfer-learning/\">\"Transfer Learning - Machine Learning's Next Frontier\"</a>",
+      "date": "25 September 2019",
+      "type": "others"
+    },
+    {
       "txt": "An easy to grasp blog to start knowing and working with Serverless architectures. Also includes a tutorial for setting up a service on Amazon AWS using Serverless framework.<br><a href=\"https://snipcart.com/blog/why-serverless-example/\">\"A Serverless Function Example: Why & How to Get Started\"</a>",
       "date": "20 September 2019",
       "type": "systems"
